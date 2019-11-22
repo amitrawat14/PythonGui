@@ -153,7 +153,7 @@ E2_password.place( x=150, y=150)
 L3_FirewallName = Label(window, text="HostName/IP",relief="raised",width=10,font=("arial",10,"bold"))
 L3_FirewallName.place(x=20, y=200)
 
-.fw_lists = ['mkt-lon6-fw1a','mkt-lon6-fw2a','mkt-ams5-fw2a','mkt-ams5-fw2a=b']
+.fw_lists = ['fw1a','fw2a','fw3a']
 
 fw_droplist = OptionMenu(window,fw_var,*fw_lists)
 fw_var.set("select fw name..")
